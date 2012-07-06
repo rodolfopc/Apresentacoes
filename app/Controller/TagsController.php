@@ -11,7 +11,9 @@
  * @author Rodolfo
  */
 class TagsController {
-    //put your code here
+   public function inserir(){
+       
+   }
 }
 
 ?>

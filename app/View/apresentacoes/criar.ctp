@@ -8,6 +8,6 @@ echo $this->Form->input('autor');
 echo $this->Form->input('local');
 echo $this->Form->input('data', array('type' =>'date', 'class' => 'datepicker'));
 echo $this->Form->input('arquivo', array('type' => 'file'));
-echo $this->Form->input('tags');
+echo $this->Form->input('tags', array('id' => 'tags'));
 echo $this->Form->submit('Entrar');
 echo $this->Form->end();
