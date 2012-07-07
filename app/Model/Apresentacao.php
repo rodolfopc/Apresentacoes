@@ -12,8 +12,13 @@
  */
 class Apresentacao extends AppModel{
     public $useTable = 'apresentacoes';
-    public $hasMany = array('Tag');
+    //public $hasMany = array('Tag');
     
     public $order = array('nome' => 'ASC');
     public $cacheQueries = true;
+    
+        public function inserir(){
+    }
+    
+    
 }
