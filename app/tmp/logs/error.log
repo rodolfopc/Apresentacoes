@@ -1,0 +1,1469 @@
+2012-07-06 00:10:55 Error: [MissingViewException] View file "C:\wamp2\www\cakephp\app\View\Apresentacoes\criar.ctp" is missing.
+#0 C:\wamp2\www\cakephp\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-06 00:14:52 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-06 00:15:09 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-06 00:15:14 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-06 00:42:32 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-06 00:42:46 Error: [MissingTableException] Table apresentacaos for model Apresentacao was not found in datasource default.
+#0 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(3180): Model->setSource('apresentacaos')
+#1 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('Apresentacao', 'fields')
+#4 C:\wamp2\www\cakephp\app\View\apresentacoes\criar.ctp(4): FormHelper->create('Apresentacao', Array)
+#5 C:\wamp2\www\cakephp\lib\Cake\View\View.php(920): include('C:\wamp2\www\ca...')
+#6 C:\wamp2\www\cakephp\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp2\www\ca...', Array)
+#7 C:\wamp2\www\cakephp\lib\Cake\View\View.php(475): View->_render('C:\wamp2\www\ca...')
+#8 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#9 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#10 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-06 00:43:35 Error: [MissingTableException] Table apresentacaos for model apresentacao was not found in datasource default.
+#0 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(3180): Model->setSource('apresentacaos')
+#1 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('apresentacao', 'fields')
+#4 C:\wamp2\www\cakephp\app\View\apresentacoes\criar.ctp(4): FormHelper->create('apresentacao', Array)
+#5 C:\wamp2\www\cakephp\lib\Cake\View\View.php(920): include('C:\wamp2\www\ca...')
+#6 C:\wamp2\www\cakephp\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp2\www\ca...', Array)
+#7 C:\wamp2\www\cakephp\lib\Cake\View\View.php(475): View->_render('C:\wamp2\www\ca...')
+#8 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#9 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#10 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-06 00:43:42 Error: [MissingTableException] Table apresentacaos for model Apresentacao was not found in datasource default.
+#0 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(3180): Model->setSource('apresentacaos')
+#1 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('Apresentacao', 'fields')
+#4 C:\wamp2\www\cakephp\app\View\apresentacoes\criar.ctp(4): FormHelper->create('Apresentacao', Array)
+#5 C:\wamp2\www\cakephp\lib\Cake\View\View.php(920): include('C:\wamp2\www\ca...')
+#6 C:\wamp2\www\cakephp\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp2\www\ca...', Array)
+#7 C:\wamp2\www\cakephp\lib\Cake\View\View.php(475): View->_render('C:\wamp2\www\ca...')
+#8 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#9 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#10 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-06 00:44:20 Error: [MissingTableException] Table apresentacaos for model Apresentacao was not found in datasource default.
+#0 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(3180): Model->setSource('apresentacaos')
+#1 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('Apresentacao', 'fields')
+#4 C:\wamp2\www\cakephp\app\View\apresentacoes\criar.ctp(4): FormHelper->create('Apresentacao', Array)
+#5 C:\wamp2\www\cakephp\lib\Cake\View\View.php(920): include('C:\wamp2\www\ca...')
+#6 C:\wamp2\www\cakephp\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp2\www\ca...', Array)
+#7 C:\wamp2\www\cakephp\lib\Cake\View\View.php(475): View->_render('C:\wamp2\www\ca...')
+#8 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#9 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#10 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-06 00:44:22 Error: [MissingTableException] Table apresentacaos for model Apresentacao was not found in datasource default.
+#0 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(3180): Model->setSource('apresentacaos')
+#1 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('Apresentacao', 'fields')
+#4 C:\wamp2\www\cakephp\app\View\apresentacoes\criar.ctp(4): FormHelper->create('Apresentacao', Array)
+#5 C:\wamp2\www\cakephp\lib\Cake\View\View.php(920): include('C:\wamp2\www\ca...')
+#6 C:\wamp2\www\cakephp\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp2\www\ca...', Array)
+#7 C:\wamp2\www\cakephp\lib\Cake\View\View.php(475): View->_render('C:\wamp2\www\ca...')
+#8 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#9 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#10 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-06 00:44:23 Error: [MissingTableException] Table apresentacaos for model Apresentacao was not found in datasource default.
+#0 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(3180): Model->setSource('apresentacaos')
+#1 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('Apresentacao', 'fields')
+#4 C:\wamp2\www\cakephp\app\View\apresentacoes\criar.ctp(4): FormHelper->create('Apresentacao', Array)
+#5 C:\wamp2\www\cakephp\lib\Cake\View\View.php(920): include('C:\wamp2\www\ca...')
+#6 C:\wamp2\www\cakephp\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp2\www\ca...', Array)
+#7 C:\wamp2\www\cakephp\lib\Cake\View\View.php(475): View->_render('C:\wamp2\www\ca...')
+#8 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#9 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#10 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-06 00:47:01 Error: [MissingTableException] Table apresentacoes for model Apresentacao was not found in datasource default.
+#0 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(3180): Model->setSource('apresentacoes')
+#1 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('Apresentacao', 'fields')
+#4 C:\wamp2\www\cakephp\app\View\apresentacoes\criar.ctp(4): FormHelper->create('Apresentacao', Array)
+#5 C:\wamp2\www\cakephp\lib\Cake\View\View.php(920): include('C:\wamp2\www\ca...')
+#6 C:\wamp2\www\cakephp\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp2\www\ca...', Array)
+#7 C:\wamp2\www\cakephp\lib\Cake\View\View.php(475): View->_render('C:\wamp2\www\ca...')
+#8 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#9 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#10 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-06 00:47:02 Error: [MissingTableException] Table apresentacoes for model Apresentacao was not found in datasource default.
+#0 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(3180): Model->setSource('apresentacoes')
+#1 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\wamp2\www\cakephp\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('Apresentacao', 'fields')
+#4 C:\wamp2\www\cakephp\app\View\apresentacoes\criar.ctp(4): FormHelper->create('Apresentacao', Array)
+#5 C:\wamp2\www\cakephp\lib\Cake\View\View.php(920): include('C:\wamp2\www\ca...')
+#6 C:\wamp2\www\cakephp\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp2\www\ca...', Array)
+#7 C:\wamp2\www\cakephp\lib\Cake\View\View.php(475): View->_render('C:\wamp2\www\ca...')
+#8 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#9 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#10 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-06 00:51:37 Error: [MissingControllerException] Controller class ApresentacaosController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-06 01:15:15 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php, line 21]
+2012-07-06 01:15:15 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 21, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 21, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-06 01:37:37 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php, line 21]
+2012-07-06 01:37:37 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 21, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 21, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-06 02:26:46 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-06 03:39:15 Error: [MissingActionException] Action ApresentacoesController::display() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-06 03:39:18 Error: [MissingActionException] Action ApresentacoesController::display() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-06 03:39:22 Error: [MissingActionException] Action ApresentacoesController::display() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-06 04:11:06 Error: [MissingControllerException] Controller class ApresentaacoesController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-06 04:12:13 Error: [MissingControllerException] Controller class ApresentaacoesController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-06 04:12:19 Error: [MissingActionException] Action ApresentacoesController::abrir() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-06 04:12:33 Error: [MissingActionException] Action ApresentacoesController::abrir() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-06 04:17:08 Error: [MissingActionException] Action ApresentacoesController::index() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-06 04:54:29 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php, line 24]
+2012-07-06 04:54:29 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 24, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 24, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-06 04:57:32 Error: [MissingActionException] Action ApresentacoesController::inserir() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-06 04:58:26 Error: Fatal Error (4): syntax error, unexpected $end in [C:\wamp2\www\cakephp\app\View\apresentacoes\inserir.ctp, line 1]
+2012-07-06 04:58:26 Error: [FatalErrorException] syntax error, unexpected $end
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp2\www\ca...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp2\www\ca...', 1, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp2\www\ca...', 1, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-06 11:14:51 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php, line 22]
+2012-07-06 11:14:51 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 22, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 22, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-06 11:16:13 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php, line 22]
+2012-07-06 11:16:13 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 22, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 22, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-06 11:16:33 Error: [MissingHelperException] Helper class Helper could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('')
+#1 C:\wamp2\www\cakephp\lib\Cake\View\View.php(812): HelperCollection->__isset('')
+#2 C:\wamp2\www\cakephp\app\View\apresentacoes\inserir.ctp(3): View->__get('')
+#3 C:\wamp2\www\cakephp\lib\Cake\View\View.php(920): include('C:\wamp2\www\ca...')
+#4 C:\wamp2\www\cakephp\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp2\www\ca...', Array)
+#5 C:\wamp2\www\cakephp\lib\Cake\View\View.php(475): View->_render('C:\wamp2\www\ca...')
+#6 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#7 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-07-06 11:18:24 Error: [MissingHelperException] Helper class dataSaveHelper could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('dataSave')
+#1 C:\wamp2\www\cakephp\lib\Cake\View\View.php(812): HelperCollection->__isset('dataSave')
+#2 C:\wamp2\www\cakephp\app\View\apresentacoes\inserir.ctp(3): View->__get('dataSave')
+#3 C:\wamp2\www\cakephp\lib\Cake\View\View.php(920): include('C:\wamp2\www\ca...')
+#4 C:\wamp2\www\cakephp\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp2\www\ca...', Array)
+#5 C:\wamp2\www\cakephp\lib\Cake\View\View.php(475): View->_render('C:\wamp2\www\ca...')
+#6 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#7 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-07-06 11:18:50 Error: [MissingHelperException] Helper class dataSaveHelper could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('dataSave')
+#1 C:\wamp2\www\cakephp\lib\Cake\View\View.php(812): HelperCollection->__isset('dataSave')
+#2 C:\wamp2\www\cakephp\app\View\apresentacoes\inserir.ctp(3): View->__get('dataSave')
+#3 C:\wamp2\www\cakephp\lib\Cake\View\View.php(920): include('C:\wamp2\www\ca...')
+#4 C:\wamp2\www\cakephp\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp2\www\ca...', Array)
+#5 C:\wamp2\www\cakephp\lib\Cake\View\View.php(475): View->_render('C:\wamp2\www\ca...')
+#6 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#7 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-07-07 13:02:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `ca...')
+#3 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Apresentacao), Array, Array)
+#4 C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php(35): Model->save(Array)
+#5 [internal function]: ApresentacoesController->inserir()
+#6 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApresentacoesController), Array)
+#7 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-07-07 13:02:50 Error: Fatal Error (1): Call to undefined function inserir() in [C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php, line 23]
+2012-07-07 13:02:50 Error: [FatalErrorException] Call to undefined function inserir()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 23, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 23, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-07 13:03:17 Error: Fatal Error (1): Call to undefined function inserir() in [C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php, line 34]
+2012-07-07 13:03:17 Error: [FatalErrorException] Call to undefined function inserir()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 34, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 34, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-07 13:03:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `ca...')
+#3 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Apresentacao), Array, Array)
+#4 C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php(26): Model->save(Array)
+#5 C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php(34): ApresentacoesController->inserir()
+#6 [internal function]: ApresentacoesController->arquivo()
+#7 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApresentacoesController), Array)
+#8 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-07 13:05:17 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php, line 35]
+2012-07-07 13:05:17 Error: [FatalErrorException] syntax error, unexpected '='
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp2\www\ca...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp2\www\ca...', 35, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp2\www\ca...', 35, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-07 13:05:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `ca...')
+#3 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Apresentacao), Array, Array)
+#4 C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php(26): Model->save(Array)
+#5 C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php(36): ApresentacoesController->inserir()
+#6 [internal function]: ApresentacoesController->arquivo()
+#7 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApresentacoesController), Array)
+#8 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-07 13:06:48 Error: Fatal Error (1): Call to undefined function getVar() in [C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php, line 37]
+2012-07-07 13:06:48 Error: [FatalErrorException] Call to undefined function getVar()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 37, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 37, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-07 13:07:08 Error: Fatal Error (1): Call to undefined method ApresentacoesController::getVar() in [C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php, line 37]
+2012-07-07 13:07:08 Error: [FatalErrorException] Call to undefined method ApresentacoesController::getVar()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 37, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 37, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-07 13:08:22 Error: [MissingViewException] View file "C:\wamp2\www\cakephp\app\View\Apresentacoes\arquivo.ctp" is missing.
+#0 C:\wamp2\www\cakephp\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-07 13:39:30 Error: [MissingHelperException] Helper class idHelper could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('id')
+#1 C:\wamp2\www\cakephp\lib\Cake\View\View.php(812): HelperCollection->__isset('id')
+#2 C:\wamp2\www\cakephp\app\View\apresentacoes\arquivo.ctp(5): View->__get('id')
+#3 C:\wamp2\www\cakephp\lib\Cake\View\View.php(920): include('C:\wamp2\www\ca...')
+#4 C:\wamp2\www\cakephp\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp2\www\ca...', Array)
+#5 C:\wamp2\www\cakephp\lib\Cake\View\View.php(475): View->_render('C:\wamp2\www\ca...')
+#6 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#7 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-07-07 14:46:30 Error: [ReflectionException] Class ImagensController does not have a constructor, so you cannot pass any constructor arguments
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(242): ReflectionClass->newInstance(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(152): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-07 14:47:22 Error: [MissingViewException] View file "C:\wamp2\www\cakephp\app\View\Imagens\inserir.ctp" is missing.
+#0 C:\wamp2\www\cakephp\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-07 15:19:21 Error: [MissingControllerException] Controller class ApresentacaosController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-07 15:19:52 Error: [MissingViewException] View file "C:\wamp2\www\cakephp\app\View\Apresentacoes\upload.ctp" is missing.
+#0 C:\wamp2\www\cakephp\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-07 15:21:03 Error: [MissingViewException] View file "C:\wamp2\www\cakephp\app\View\Apresentacoes\upload.ctp" is missing.
+#0 C:\wamp2\www\cakephp\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-07 15:25:49 Error: Fatal Error (1): Call to undefined function setFlash() in [C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php, line 50]
+2012-07-07 15:25:49 Error: [FatalErrorException] Call to undefined function setFlash()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 50, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 50, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-07 15:26:26 Error: Fatal Error (1): Call to undefined method ApresentacoesController::setFlash() in [C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php, line 44]
+2012-07-07 15:26:26 Error: [FatalErrorException] Call to undefined method ApresentacoesController::setFlash()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 44, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 44, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-07 15:44:16 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'getInsert' at line 1
+#0 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('getInsert', Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('getInsert', Array, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(613): DboSource->fetchAll('getInsert', Array, Array)
+#4 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(784): DboSource->query('getInsert', Array, Object(Apresentacao))
+#5 C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php(30): Model->__call('getInsert', Array)
+#6 C:\wamp2\www\cakephp\app\Controller\ApresentacoesController.php(30): Apresentacao->getInsert()
+#7 [internal function]: ApresentacoesController->arquivo()
+#8 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApresentacoesController), Array)
+#9 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-07 17:35:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-07 17:35:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-07 17:36:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-07 17:36:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-07 17:36:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-07 17:36:54 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-07 17:38:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-07 17:38:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-07 17:39:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-07 17:39:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-07 17:39:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-07 17:50:40 Error: [MissingActionException] Action ImagensController::upload.php() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-07 18:52:43 Error: [MissingViewException] View file "C:\wamp2\www\cakephp\app\View\Imagens\upload.ctp" is missing.
+#0 C:\wamp2\www\cakephp\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-07 18:53:28 Error: [MissingViewException] View file "C:\wamp2\www\cakephp\app\View\Imagens\upload.ctp" is missing.
+#0 C:\wamp2\www\cakephp\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-07 18:56:54 Error: [MissingActionException] Action ImagensController::imagens_files() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-07 18:56:54 Error: [MissingActionException] Action ImagensController::imagens_files() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-07 18:56:54 Error: [MissingActionException] Action ImagensController::imagens_files() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-07 19:00:42 Error: [MissingActionException] Action ImagensController::imagens_files() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-07 19:02:51 Error: [MissingActionException] Action ImagensController::imagens_files() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-07 19:03:41 Error: [MissingActionException] Action ImagensController::imagens_files() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-07 19:03:41 Error: [MissingActionException] Action ImagensController::imagens_files() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-07 19:03:41 Error: [MissingActionException] Action ImagensController::imagens_files() could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-07 21:41:57 Error: Fatal Error (64): Cannot redeclare ImagensController::upload() in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 21]
+2012-07-07 21:41:57 Error: [FatalErrorException] Cannot redeclare ImagensController::upload()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp2\www\ca...', 21)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp2\www\ca...', 21, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp2\www\ca...', 21, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-07 21:42:06 Error: Fatal Error (64): Cannot redeclare ImagensController::upload() in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 21]
+2012-07-07 21:42:06 Error: [FatalErrorException] Cannot redeclare ImagensController::upload()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\wamp2\www\ca...', 21)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\wamp2\www\ca...', 21, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\wamp2\www\ca...', 21, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-07 23:35:09 Error: Fatal Error (4): syntax error, unexpected ';', expecting T_FUNCTION in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 51]
+2012-07-07 23:35:09 Error: [FatalErrorException] syntax error, unexpected ';', expecting T_FUNCTION
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp2\www\ca...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp2\www\ca...', 51, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp2\www\ca...', 51, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-07 23:41:34 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 22]
+2012-07-07 23:41:34 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp2\www\ca...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp2\www\ca...', 22, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp2\www\ca...', 22, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-07 23:42:05 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 22]
+2012-07-07 23:42:05 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp2\www\ca...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp2\www\ca...', 22, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp2\www\ca...', 22, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-07 23:44:26 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 24]
+2012-07-07 23:44:26 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp2\www\ca...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp2\www\ca...', 24, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp2\www\ca...', 24, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-07 23:50:20 Error: Fatal Error (4): syntax error, unexpected '/' in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 22]
+2012-07-07 23:50:20 Error: [FatalErrorException] syntax error, unexpected '/'
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp2\www\ca...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp2\www\ca...', 22, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp2\www\ca...', 22, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 00:14:32 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 40]
+2012-07-08 00:14:32 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 40, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 40, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 00:15:41 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 40]
+2012-07-08 00:15:41 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 40, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 40, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 00:21:06 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 40]
+2012-07-08 00:21:06 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 40, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 40, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 00:23:19 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 40]
+2012-07-08 00:23:19 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 40, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 40, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 00:24:30 Error: Fatal Error (1): Call to undefined method Imagem::save() in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 41]
+2012-07-08 00:24:30 Error: [FatalErrorException] Call to undefined method Imagem::save()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 41, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 41, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 00:34:27 Error: Fatal Error (1): Call to undefined method Imagem::save() in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 41]
+2012-07-08 00:34:27 Error: [FatalErrorException] Call to undefined method Imagem::save()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 41, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 41, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 03:43:12 Error: [MissingHelperException] Helper class ImagemHelper could not be found.
+#0 C:\wamp2\www\cakephp\lib\Cake\View\HelperCollection.php(62): HelperCollection->load('Imagem')
+#1 C:\wamp2\www\cakephp\lib\Cake\View\View.php(812): HelperCollection->__isset('Imagem')
+#2 C:\wamp2\www\cakephp\app\View\imagens\upload.ctp(4): View->__get('Imagem')
+#3 C:\wamp2\www\cakephp\lib\Cake\View\View.php(920): include('C:\wamp2\www\ca...')
+#4 C:\wamp2\www\cakephp\lib\Cake\View\View.php(883): View->_evaluate('C:\wamp2\www\ca...', Array)
+#5 C:\wamp2\www\cakephp\lib\Cake\View\View.php(475): View->_render('C:\wamp2\www\ca...')
+#6 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#7 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#8 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-07-08 05:41:11 Error: Fatal Error (1): Call to undefined method Tag::getDataSource() in [C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php, line 1068]
+2012-07-08 05:41:11 Error: [FatalErrorException] Call to undefined method Tag::getDataSource()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 05:41:57 Error: Fatal Error (1): Call to undefined method Tag::getDataSource() in [C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php, line 1068]
+2012-07-08 05:41:57 Error: [FatalErrorException] Call to undefined method Tag::getDataSource()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 05:42:31 Error: Fatal Error (1): Call to undefined method Tag::getDataSource() in [C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php, line 1068]
+2012-07-08 05:42:31 Error: [FatalErrorException] Call to undefined method Tag::getDataSource()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 05:43:14 Error: Fatal Error (1): Call to undefined method Tag::getDataSource() in [C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php, line 1068]
+2012-07-08 05:43:14 Error: [FatalErrorException] Call to undefined method Tag::getDataSource()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 05:43:37 Error: Fatal Error (1): Call to undefined method Tag::getDataSource() in [C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php, line 1068]
+2012-07-08 05:43:37 Error: [FatalErrorException] Call to undefined method Tag::getDataSource()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 05:46:57 Error: Fatal Error (1): Call to undefined method Tag::getDataSource() in [C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php, line 1068]
+2012-07-08 05:46:57 Error: [FatalErrorException] Call to undefined method Tag::getDataSource()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 05:49:00 Error: Fatal Error (1): Call to undefined method Tag::getDataSource() in [C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php, line 1068]
+2012-07-08 05:49:00 Error: [FatalErrorException] Call to undefined method Tag::getDataSource()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 05:50:26 Error: Fatal Error (1): Call to undefined method Tag::getDataSource() in [C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php, line 1068]
+2012-07-08 05:50:26 Error: [FatalErrorException] Call to undefined method Tag::getDataSource()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 05:50:46 Error: Fatal Error (1): Call to undefined method Tag::getDataSource() in [C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php, line 1068]
+2012-07-08 05:50:46 Error: [FatalErrorException] Call to undefined method Tag::getDataSource()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 05:51:18 Error: Fatal Error (1): Call to undefined method Tag::getDataSource() in [C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php, line 1068]
+2012-07-08 05:51:18 Error: [FatalErrorException] Call to undefined method Tag::getDataSource()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 05:51:57 Error: Fatal Error (1): Call to undefined method Tag::getDataSource() in [C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php, line 1068]
+2012-07-08 05:51:57 Error: [FatalErrorException] Call to undefined method Tag::getDataSource()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 05:56:22 Error: Fatal Error (1): Call to undefined method Tag::getDataSource() in [C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php, line 1068]
+2012-07-08 05:56:22 Error: [FatalErrorException] Call to undefined method Tag::getDataSource()
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp2\www\ca...', 1068, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 05:56:48 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 51]
+2012-07-08 05:56:48 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 51, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 51, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 06:05:05 Error: Fatal Error (1): Call to a member function findAllByid_apresentacao() on a non-object in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 51]
+2012-07-08 06:05:05 Error: [FatalErrorException] Call to a member function findAllByid_apresentacao() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 51, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 51, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 06:05:45 Error: Fatal Error (1): Call to a member function findAllByIdApresentacao() on a non-object in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 51]
+2012-07-08 06:05:45 Error: [FatalErrorException] Call to a member function findAllByIdApresentacao() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 51, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 51, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 06:06:29 Error: Fatal Error (1): Call to a member function findAllById_apresentacao() on a non-object in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 51]
+2012-07-08 06:06:29 Error: [FatalErrorException] Call to a member function findAllById_apresentacao() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 51, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 51, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 06:07:00 Error: Fatal Error (1): Call to a member function findById_apresentacao() on a non-object in [C:\wamp2\www\cakephp\app\Controller\ImagensController.php, line 51]
+2012-07-08 06:07:00 Error: [FatalErrorException] Call to a member function findById_apresentacao() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 51, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 51, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-08 06:08:34 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cakephp.imagem' doesn't exist
+#0 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM i...', Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT * FROM i...', Array, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM i...')
+#4 [internal function]: DboSource->query('SELECT * FROM i...')
+#5 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(2997): call_user_func_array(Array, Array)
+#6 C:\wamp2\www\cakephp\app\Controller\ImagensController.php(51): Model->query('SELECT * FROM i...')
+#7 [internal function]: ImagensController->upload()
+#8 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ImagensController), Array)
+#9 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-08 06:10:42 Error: [MissingControllerException] Controller class ImagensFilesController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-08 06:10:49 Error: [MissingControllerException] Controller class ImagensFilesController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-08 12:13:34 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+#0 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM i...', Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT * FROM i...', Array, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM i...')
+#4 [internal function]: DboSource->query('SELECT * FROM i...')
+#5 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(2997): call_user_func_array(Array, Array)
+#6 C:\wamp2\www\cakephp\app\Controller\ImagensController.php(49): Model->query('SELECT * FROM i...')
+#7 [internal function]: ImagensController->upload()
+#8 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ImagensController), Array)
+#9 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-08 12:14:00 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+#0 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM i...', Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT * FROM i...', Array, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM i...')
+#4 [internal function]: DboSource->query('SELECT * FROM i...')
+#5 C:\wamp2\www\cakephp\lib\Cake\Model\Model.php(2997): call_user_func_array(Array, Array)
+#6 C:\wamp2\www\cakephp\app\Controller\ImagensController.php(49): Model->query('SELECT * FROM i...')
+#7 [internal function]: ImagensController->upload()
+#8 C:\wamp2\www\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ImagensController), Array)
+#9 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ImagensController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-08 14:31:11 Error: [ReflectionException] Class TagsController does not have a constructor, so you cannot pass any constructor arguments
+#0 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(242): ReflectionClass->newInstance(Object(CakeRequest), Object(CakeResponse))
+#1 C:\wamp2\www\cakephp\lib\Cake\Routing\Dispatcher.php(152): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-08 14:38:26 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-08 14:39:42 Error: [MissingControllerException] Controller class WebrootController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-09 14:45:09 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 40]
+2012-07-09 14:45:09 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 14:52:01 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 40]
+2012-07-09 14:52:01 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 14:55:08 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'cakephp'" is missing, or could not be created.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3158): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3180): Model->setSource('apresentacoes')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1178): Model->schema()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1141): Model->_setAliasData(Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1617): Model->set(Array)
+#9 C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php(33): Model->save(Array)
+#10 [internal function]: ApresentacoesController->arquivo()
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApresentacoesController), Array)
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#14 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-07-09 14:55:53 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 40]
+2012-07-09 14:55:53 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 14:56:15 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 40]
+2012-07-09 14:56:15 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 14:57:07 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 40]
+2012-07-09 14:57:07 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 14:58:11 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 40]
+2012-07-09 14:58:11 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 15:00:04 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 40]
+2012-07-09 15:00:04 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 15:00:29 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 40]
+2012-07-09 15:00:29 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 15:01:05 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 40]
+2012-07-09 15:01:05 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 15:09:18 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 40]
+2012-07-09 15:09:18 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 15:11:29 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 40]
+2012-07-09 15:11:29 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 15:12:58 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 36]
+2012-07-09 15:12:58 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 15:14:04 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 36]
+2012-07-09 15:14:04 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 15:14:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 36]
+2012-07-09 15:14:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 19:21:41 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 36]
+2012-07-09 19:21:42 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 19:22:29 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 36]
+2012-07-09 19:22:29 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 19:24:01 Error: Fatal Error (1): Call to a member function query() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 36]
+2012-07-09 19:24:01 Error: [FatalErrorException] Call to a member function query() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 19:24:10 Error: Fatal Error (1): Call to a member function query() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 36]
+2012-07-09 19:24:10 Error: [FatalErrorException] Call to a member function query() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 19:24:45 Error: Fatal Error (1): Call to a member function query() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 36]
+2012-07-09 19:24:45 Error: [FatalErrorException] Call to a member function query() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 19:30:30 Error: Fatal Error (1): Call to a member function query() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 36]
+2012-07-09 19:30:30 Error: [FatalErrorException] Call to a member function query() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 19:30:58 Error: Fatal Error (1): Call to a member function query() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 36]
+2012-07-09 19:30:58 Error: [FatalErrorException] Call to a member function query() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 19:31:05 Error: Fatal Error (1): Call to a member function query() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php, line 36]
+2012-07-09 19:31:05 Error: [FatalErrorException] Call to a member function query() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-09 19:33:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'asd' in 'where clause'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT * FROM t...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT * FROM t...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(540): DboSource->fetchAll('SELECT * FROM t...')
+#4 [internal function]: DboSource->query('SELECT * FROM t...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2997): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php(37): Model->query('SELECT * FROM t...')
+#7 [internal function]: ApresentacoesController->arquivo()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApresentacoesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-07-09 19:35:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Tag.apresentacao_id' in 'on clause'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Tag), Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php(37): Model->find('count', Array)
+#6 [internal function]: ApresentacoesController->arquivo()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApresentacoesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-09 19:36:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Tag.apresentacao_id' in 'on clause'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Tag), Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php(37): Model->find('count', Array)
+#6 [internal function]: ApresentacoesController->arquivo()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApresentacoesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-09 19:37:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Tag.imagem_id' in 'on clause'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(671): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1082): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2631): DboSource->read(Object(Tag), Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php(37): Model->find('count', Array)
+#6 [internal function]: ApresentacoesController->arquivo()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApresentacoesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-07-09 19:43:25 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'documentos' cannot be null
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(427): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1009): DboSource->execute('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1730): DboSource->create(Object(Tag), Array, Array)
+#4 C:\xampp\htdocs\cakephp\app\Controller\ApresentacoesController.php(42): Model->save(Array)
+#5 [internal function]: ApresentacoesController->arquivo()
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(ApresentacoesController), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(ApresentacoesController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-07-10 16:26:25 Error: [MissingControllerException] Controller class BuscasController could not be found.
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-10 16:26:28 Error: [MissingControllerException] Controller class BuscasController could not be found.
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-10 16:27:34 Error: [MissingControllerException] Controller class BuscasController could not be found.
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-10 16:35:08 Error: [ReflectionException] Class BuscasController does not have a constructor, so you cannot pass any constructor arguments
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(242): ReflectionClass->newInstance(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(152): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-07-10 16:35:40 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp\app\View\Buscas\nova.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(BuscasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-10 16:55:47 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(861): HelperCollection->load('Ajax', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(468): View->loadHelpers()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(BuscasController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-10 16:56:23 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp, line 3]
+2012-07-10 16:56:23 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 3, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 3, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 16:56:23 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp, line 3]
+2012-07-10 16:56:23 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 3, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 3, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 16:56:50 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp, line 3]
+2012-07-10 16:56:50 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 3, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 3, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 16:56:51 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp, line 3]
+2012-07-10 16:56:51 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 3, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 3, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 16:56:58 Error: Fatal Error (1): Call to a member function link() on a non-object in [C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp, line 2]
+2012-07-10 16:56:58 Error: [FatalErrorException] Call to a member function link() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 16:58:27 Error: Fatal Error (1): Call to a member function link() on a non-object in [C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp, line 2]
+2012-07-10 16:58:27 Error: [FatalErrorException] Call to a member function link() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 16:58:44 Error: Fatal Error (1): Call to a member function link() on a non-object in [C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp, line 2]
+2012-07-10 16:58:44 Error: [FatalErrorException] Call to a member function link() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 16:59:17 Error: Fatal Error (1): Call to a member function link() on a non-object in [C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp, line 2]
+2012-07-10 16:59:17 Error: [FatalErrorException] Call to a member function link() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 16:59:18 Error: Fatal Error (1): Call to a member function link() on a non-object in [C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp, line 2]
+2012-07-10 16:59:18 Error: [FatalErrorException] Call to a member function link() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 16:59:18 Error: Fatal Error (1): Call to a member function link() on a non-object in [C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp, line 2]
+2012-07-10 16:59:18 Error: [FatalErrorException] Call to a member function link() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 16:59:46 Error: Fatal Error (1): Call to a member function link() on a non-object in [C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp, line 2]
+2012-07-10 16:59:46 Error: [FatalErrorException] Call to a member function link() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:00:05 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:00:05 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:00:21 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:00:21 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:00:22 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:00:22 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:00:52 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:00:52 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:00:54 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:00:54 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:00:54 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:00:54 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:01:42 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:01:42 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:01:43 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:01:43 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:01:43 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:01:43 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:01:43 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:01:43 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:02:15 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:02:15 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:02:25 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:02:25 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:02:32 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:02:32 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:05:44 Error: Fatal Error (4): syntax error, unexpected '*' in [C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp, line 10]
+2012-07-10 17:05:44 Error: [FatalErrorException] syntax error, unexpected '*'
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:05:51 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:05:51 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:05:53 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:05:53 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:07:08 Error: Fatal Error (1): Cannot unset string offsets in [C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 355]
+2012-07-10 17:07:08 Error: [FatalErrorException] Cannot unset string offsets
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'C:\xampp\htdocs...', 355, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:07:30 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp, line 10]
+2012-07-10 17:07:30 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:12:31 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(861): HelperCollection->load('Ajax', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(468): View->loadHelpers()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(BuscasController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-10 17:12:54 Error: [MissingHelperException] Helper class JsHelperHelper could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(861): HelperCollection->load('JsHelper', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(468): View->loadHelpers()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(BuscasController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-07-10 17:13:28 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp\app\View\Widgets\nova.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(BuscasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-10 17:13:44 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp\app\View\Widgets\nova.ctp" is missing.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(BuscasController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-07-10 17:13:51 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp, line 10]
+2012-07-10 17:13:51 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:14:01 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp, line 10]
+2012-07-10 17:14:01 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-10 17:33:27 Error: [MissingPluginException] Plugin jquery-1 could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(364): CakePlugin::path('jquery-1')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(225): App::pluginPath('jquery-1')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(542): App::path('View/Helper', 'jquery-1')
+#3 [internal function]: App::load('7.2.minEngineHe...')
+#4 [internal function]: spl_autoload_call('7.2.minEngineHe...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(129): class_exists('7.2.minEngineHe...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(935): HelperCollection->load('jquery-1.7.2.mi...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\Helper.php(191): View->loadHelper('jquery-1.7.2.mi...', Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\JsHelper.php(122): Helper->__get('7.2.minEngine')
+#9 C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp(7): JsHelper->__call('get', Array)
+#10 C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp(7): JsHelper->get('#linkavancada')
+#11 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#15 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#16 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(BuscasController), Object(CakeRequest), Object(CakeResponse))
+#17 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2012-07-10 17:33:40 Error: [MissingPluginException] Plugin jquery-1 could not be found.
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(364): CakePlugin::path('jquery-1')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(225): App::pluginPath('jquery-1')
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(542): App::path('View/Helper', 'jquery-1')
+#3 [internal function]: App::load('7.2.minEngineHe...')
+#4 [internal function]: spl_autoload_call('7.2.minEngineHe...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(129): class_exists('7.2.minEngineHe...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(935): HelperCollection->load('jquery-1.7.2.mi...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\Helper.php(191): View->loadHelper('jquery-1.7.2.mi...', Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\View\Helper\JsHelper.php(122): Helper->__get('7.2.minEngine')
+#9 C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp(7): JsHelper->__call('get', Array)
+#10 C:\xampp\htdocs\cakephp\app\View\buscas\nova.ctp(7): JsHelper->get('#linkavancada')
+#11 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#15 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#16 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(BuscasController), Object(CakeRequest), Object(CakeResponse))
+#17 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2012-07-10 18:42:36 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-10 18:42:36 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-10 20:12:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-10 20:12:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-10 20:12:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-10 20:12:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-10 23:08:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-10 23:08:05 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-10 23:08:18 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\wamp2\www\cakephp\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-07-11 05:13:18 Error: Fatal Error (1): Call to a member function effect() on a non-object in [C:\wamp2\www\cakephp\app\View\buscas\nova.ctp, line 17]
+2012-07-11 05:13:18 Error: [FatalErrorException] Call to a member function effect() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 17, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 17, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-07-11 05:13:33 Error: Fatal Error (1): Call to a member function effect() on a non-object in [C:\wamp2\www\cakephp\app\View\buscas\nova.ctp, line 17]
+2012-07-11 05:13:33 Error: [FatalErrorException] Call to a member function effect() on a non-object
+#0 C:\wamp2\www\cakephp\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp2\www\ca...', 17, Array)
+#2 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp2\www\ca...', 17, Array)
+#3 C:\wamp2\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

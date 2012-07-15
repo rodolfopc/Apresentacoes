@@ -79,6 +79,7 @@ p {
 
 #header{
 	padding: 10px 20px;
+        text-align: center;
 }
 #header h1 {
 	line-height:20px;
@@ -283,9 +284,9 @@ fieldset fieldset div {
 	margin: 0 20px;
 }
 form div {
-	clear: both;
+	/*clear: both;*/
 	margin-bottom: 1em;
-	padding: .5em;
+
 	vertical-align: text-top;
 }
 form .input {
@@ -737,3 +738,50 @@ pre {
 #url-rewriting-warning {
 	display:none;
 }
+
+.imagem{
+    width: 350px;
+}
+
+.tags{
+    margin:20px 0 20px 0;
+}
+
+.tag{
+    width: 350px;
+    float:left;
+    margin-left: 20px;
+}
+
+      .tagscaixa
+       {
+       height: 200px;
+       margin:0px auto;
+       overflow: hidden;
+       }
+      
+        
+       .tag_mini {
+        margin: 0 5px 5px 15px;
+        float: left;
+        background: #fcfdfd;
+        color: #333;
+        border-top: 1px solid #E9E9E9;
+        border-bottom: 1px solid lightGrey;
+        border-right: 1px solid #D6D6D6;
+        -webkit-border-radius: 0 4px 4px 0;
+        -moz-border-radius: 0 4px 4px 0;
+        border-radius: 0 4px 4px 0;
+        float: left;
+        }
+
+       
+     .t {
+        margin-left: -15px;
+        margin-top: -1px;
+        margin-bottom: -1px;
+        width: 17px;
+        height: 21px;
+        background: url('../img/tag.png') no-repeat 0 0;
+        float: left;
+        }

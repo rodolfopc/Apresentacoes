@@ -16,9 +16,6 @@ class Apresentacao extends AppModel{
     
     public $order = array('nome' => 'ASC');
     public $cacheQueries = true;
-    
-        public function inserir(){
-    }
-    
+    public $hasMany = array('Imagem','Tag');
     
 }

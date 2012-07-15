@@ -28,19 +28,21 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
-
 		echo $this->Html->css('cake.generic');
-                echo $this->Html->script('jquery-1.7.2.min');
+                echo $this->Html->script('jquery');
+                
                 echo $this->Html->script('scripts');
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
+                echo $scripts_for_layout;
+                echo $this->Js->writeBuffer(array('cache'=>TRUE));
 	?>
 </head>
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+			<?php echo $this->element('menu'); ?>
 		</div>
 		<div id="content">
 

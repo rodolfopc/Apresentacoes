@@ -10,8 +10,6 @@
  *
  * @author Rodolfo
  */
-class Tag {
-    
+class Tag extends AppModel{
+    public $useTable = 'tags';
 }
-
-?>
